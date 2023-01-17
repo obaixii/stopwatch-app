@@ -6,8 +6,29 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.header{
+  width: 100%;
+  position: fixed;
+}
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.home{
+  height: 100vh;
+}
+
+.main-section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.stopwatch{
+  width: 100%;
+}
+.stopwatch-timer > div{
+  margin: 0px 10px;
+  width: 60px;
+}
+.colon{
+  font-size: 18px;
+  font-weight: 700;
 }
